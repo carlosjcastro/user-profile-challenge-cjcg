@@ -52,3 +52,5 @@ Framework y bibliotecas principales:
 ## Estructura del proyecto
 1. /pages: Contiene las páginas de la aplicación.
 2. /components: Componentes reutilizables de React.
+
+Creado con ♥ por Carlos José Castro Galante
