@@ -3,23 +3,26 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
 
 ## Instalación
 1. Clonar el repositorio
-git clone [<URL del repositorio>](https://github.com/carlosjcastro/user-profile-challenge-cjcg.git)
-cd user-profile-challenge
+```git clone [<URL del repositorio>](https://github.com/carlosjcastro/user-profile-challenge-cjcg.git)```
+```cd user-profile-challenge ```
 
-2. Instalar Node.js y npm en el sistema
+3. Instalar Node.js y npm en el sistema
    
 4. Instalar dependencias necesarias
+   ```
    npm install @emotion/react @emotion/styled @mui/material boxicons framer-motion i18next next react react-dom react-hook-form react-icons
 
-5. Instalar dependencias de desarrollo
+6. Instalar dependencias de desarrollo
+   ```
    npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @testing-library/jest-dom @testing-library/react babel-jest eslint eslint-config-next identity-obj-proxy jest
 
 ## Ejecución
 
 1. Iniciar el servidor de desarrollo
+   ```
    npm run dev
 
-2. Abrir la aplicación en el navegador
+3. Abrir la aplicación en el navegador
    La aplicación estará disponible en http://localhost:3000.
 
 ## Dependencias
@@ -39,13 +42,14 @@ boxicons
 
 
 ## Scripts disponibles
+```
 npm run dev: Inicia la aplicación en modo de desarrollo.
 npm run build: Compila la aplicación para producción.
 npm start: Inicia la aplicación en modo de producción.
 npm run lint: Ejecuta el linter para verificar el código.
 npm test: Ejecuta pruebas utilizando Jest.
 npm run test:watch: Ejecuta Jest en modo observador para pruebas continuas.
-
+```
 ## Estructura del proyecto
 /pages: Contiene las páginas de la aplicación.
 /components: Componentes reutilizables de React.
