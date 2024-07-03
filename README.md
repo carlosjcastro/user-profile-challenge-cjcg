@@ -30,7 +30,7 @@ Framework y bibliotecas principales:
 
 - Next.js
 - React.js
-- Material-UI
+- Material-UI (para validación básica de formulario)
 - Framer Motion
 - Emotion
 
