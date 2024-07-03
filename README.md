@@ -21,33 +21,33 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
 1. Iniciar el servidor de desarrollo
    ```
    npm run dev
-
+   
 3. Abrir la aplicación en el navegador
    La aplicación estará disponible en http://localhost:3000.
 
 ## Dependencias
 Framework y bibliotecas principales:
 
-->Next.js
-->React.js
-->Material-UI
-->Framer Motion
-->Emotion
+- Next.js
+- React.js
+- Material-UI
+- Framer Motion
+- Emotion
 
 ### Otras dependencias importantes:
 
-->react-hook-form
-->react-icons
+- react-hook-form
+- react-icons
 
 
 ## Scripts disponibles
 ```
-->npm run dev: Inicia la aplicación en modo de desarrollo.
-->npm run build: Compila la aplicación para producción.
-->npm start: Inicia la aplicación en modo de producción.
-->npm run lint: Ejecuta el linter para verificar el código.
-->npm test: Ejecuta pruebas utilizando Jest.
-->npm run test:watch: Ejecuta Jest en modo observador para pruebas continuas.
+- npm run dev: Inicia la aplicación en modo de desarrollo.
+- npm run build: Compila la aplicación para producción.
+- npm start: Inicia la aplicación en modo de producción.
+- npm run lint: Ejecuta el linter para verificar el código.
+- npm test: Ejecuta pruebas utilizando Jest.
+- npm run test:watch: Ejecuta Jest en modo observador para pruebas continuas.
 ```
 ## Estructura del proyecto
 1. /pages: Contiene las páginas de la aplicación.
