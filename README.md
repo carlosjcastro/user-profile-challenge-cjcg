@@ -28,31 +28,27 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
 ## Dependencias
 Framework y bibliotecas principales:
 
-Next.js
-React.js
-Material-UI
-Framer Motion
-Emotion
+->Next.js
+->React.js
+->Material-UI
+->Framer Motion
+->Emotion
 
 ### Otras dependencias importantes:
 
-react-hook-form
-react-icons
-boxicons
+->react-hook-form
+->react-icons
 
 
 ## Scripts disponibles
 ```
-npm run dev: Inicia la aplicación en modo de desarrollo.
-npm run build: Compila la aplicación para producción.
-npm start: Inicia la aplicación en modo de producción.
-npm run lint: Ejecuta el linter para verificar el código.
-npm test: Ejecuta pruebas utilizando Jest.
-npm run test:watch: Ejecuta Jest en modo observador para pruebas continuas.
+->npm run dev: Inicia la aplicación en modo de desarrollo.
+->npm run build: Compila la aplicación para producción.
+->npm start: Inicia la aplicación en modo de producción.
+->npm run lint: Ejecuta el linter para verificar el código.
+->npm test: Ejecuta pruebas utilizando Jest.
+->npm run test:watch: Ejecuta Jest en modo observador para pruebas continuas.
 ```
 ## Estructura del proyecto
-/pages: Contiene las páginas de la aplicación.
-/components: Componentes reutilizables de React.
-/styles: Estilos globales y módulos CSS.
-/public: Archivos estáticos como imágenes y fuentes.
-/tests: Archivos de prueba.
+1. /pages: Contiene las páginas de la aplicación.
+2. /components: Componentes reutilizables de React.
