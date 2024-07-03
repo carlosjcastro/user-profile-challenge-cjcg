@@ -1,8 +1,6 @@
 .footer {
   background-color: #04060b;
   color: #ffffff;
-  text-align: center;
-  padding: 20px;
   position: relative;
   width: 100%;
   bottom: 0;
@@ -11,11 +9,39 @@
   border-top-right-radius: 8px;
   min-height: 10vh;
   display: flex;
-  text-align: center;
   justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.left {
+  display: flex;
   align-items: center;
 }
 
-.footer p a{
+.center {
+  text-align: center;
+  flex: 1;
+}
+
+.footer p a {
   color: #57cc99;
+}
+
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left, .center {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .center {
+    padding-top: 20px;
+  }
 }

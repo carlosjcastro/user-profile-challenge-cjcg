@@ -24,16 +24,19 @@
   padding-bottom: 20px;
 }
 
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .downloadButton {
-  position: absolute;
-  bottom: 20px;
-  right: 30px;
-  padding: 10px 20px;
+  padding: 10px 50px;
   background-color: #0b0d17;
   color: white;
   text-decoration: none;
   border-radius: 8px;
   border: 2px solid #ffffff;
+  margin-top: 20px;
 }
 
 .downloadButton:hover {
@@ -55,6 +58,10 @@
     font-size: 16px;
   }
 
+  .buttonContainer {
+    justify-content: center;
+  }
+
   .downloadButton {
     bottom: 10px;
     right: 10px;
@@ -73,6 +80,10 @@
   .description {
     font-size: 15px;
   }
+
+  .buttonContainer {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 576px) {
@@ -82,5 +93,18 @@
 
   .title {
     font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .buttonContainer {
+    justify-content: center;
+  }
+
+  .downloadButton {
+    width: 100%;
+    text-align: center;
   }
 }

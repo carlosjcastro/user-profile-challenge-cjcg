@@ -34,16 +34,19 @@
 .inputField {
   padding: 12px;
   font-size: 16px;
-  border: 2px solid #bababa;
   border-radius: 4px;
-  background: none;
-  resize: none;
-  width: 100%;
+  background-color: #0b0d17;
   color: #ffffff;
+  border: 1px solid #0b0d17;
+  resize: none;
 }
 
 .inputField:hover {
-  border: 2px solid #57cc99;
+  border-color: #57cc99;
+}
+
+.inputField:focus {
+  border-color: #57cc99;
 }
 
 .button {

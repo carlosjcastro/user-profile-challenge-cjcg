@@ -1,11 +1,15 @@
-'use client';
+"use client";
 import React, { useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { motion } from "framer-motion";
 import styles from "./ContactForm.module.css";
 
 const ContactForm = () => {
-  const { handleSubmit, control, formState: { errors } } = useForm();
+  const {
+    handleSubmit,
+    control,
+    formState: { errors },
+  } = useForm();
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const onSubmit = (data) => {
@@ -54,7 +58,9 @@ const ContactForm = () => {
                 />
               )}
             />
-            {errors.name && <span className={styles.error}>{errors.name.message}</span>}
+            {errors.name && (
+              <span className={styles.error}>{errors.name.message}</span>
+            )}
 
             <Controller
               name="email"
@@ -79,7 +85,9 @@ const ContactForm = () => {
                 />
               )}
             />
-            {errors.email && <span className={styles.error}>{errors.email.message}</span>}
+            {errors.email && (
+              <span className={styles.error}>{errors.email.message}</span>
+            )}
 
             <Controller
               name="message"
@@ -97,7 +105,9 @@ const ContactForm = () => {
                 />
               )}
             />
-            {errors.message && <span className={styles.error}>{errors.message.message}</span>}
+            {errors.message && (
+              <span className={styles.error}>{errors.message.message}</span>
+            )}
 
             <motion.button
               type="submit"
