@@ -7,6 +7,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.left}>
+      <a href="https://www.linkedin.com/in/carlosjcastrog/" target="_blank" rel="noopener noreferrer">
+            {" "}
         <Image 
           src={cjcg} 
           alt="Logo" 
@@ -15,7 +17,7 @@ const Footer = () => {
           layout="intrinsic"
           quality={100}
           className={styles.logo} 
-        />
+        />  </a>
       </div>
       <div className={styles.center}>
         <p>

@@ -4,6 +4,7 @@ import Header from "../components/header/Header";
 import About from "../components/about/About";
 import Interests from "../components/interests/Interests";
 import Skills from "../components/skills/Skills";
+import Languages from "../components/languages/Languages";
 import ContactForm from "../components/contactForm/ContactForm";
 import Footer from "../components/footer/Footer";
 import Loader from "../components/loader/Loader";
@@ -33,7 +34,10 @@ export default function Home() {
           <About className={`${styles.about} ${styles.flexItem}`} />
           <Interests className={`${styles.interests} ${styles.flexItem}`} />
         </div>
-        <Skills />
+        <div className={`${styles.profileContent} ${styles.flex}`}>
+          <Skills className={styles.flexItem} />
+          <Languages className={styles.flexItem} />
+        </div>
       </section>
       <section className={styles.contactSection}>
         <ContactForm />

@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  transition: all 0.2s ease-in-out;
 }
 
 body {
@@ -13,5 +12,15 @@ body {
 
 ::selection {
   color: #000000;
+  background-color: #57cc99;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: none;
+}
+::-webkit-scrollbar-thumb {
   background-color: #57cc99;
 }

@@ -1,6 +1,8 @@
 'use client';
+import { useState } from 'react';
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Popper from '@mui/material/Popper';
 import styles from "./Skills.module.css";
 import html5 from "../../assets/logos/html5.svg";
 import css3 from "../../assets/logos/css3.svg";
@@ -29,6 +31,19 @@ const skillsList = [
 ];
 
 const Skills = () => {
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [currentSkill, setCurrentSkill] = useState('');
+
+  const handleMouseEnter = (event, skill) => {
+    setAnchorEl(event.currentTarget);
+    setCurrentSkill(skill);
+  };
+
+  const handleMouseLeave = () => {
+    setAnchorEl(null);
+    setCurrentSkill('');
+  };
+
   return (
     <motion.section
       className={styles.skills}
@@ -57,6 +72,8 @@ const Skills = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 * index }}
+            onMouseEnter={(event) => handleMouseEnter(event, skill.name)}
+            onMouseLeave={handleMouseLeave}
           >
             <Image
               src={skill.logo}
@@ -66,6 +83,22 @@ const Skills = () => {
             />
           </motion.div>
         ))}
+        <Popper
+          open={Boolean(anchorEl)}
+          anchorEl={anchorEl}
+          placement="top"
+          disablePortal={false}
+          modifiers={[
+            {
+              name: 'offset',
+              options: {
+                offset: [0, 8],
+              },
+            },
+          ]}
+        >
+          <div className={styles.popper}>{currentSkill}</div>
+        </Popper>
       </motion.div>
     </motion.section>
   );

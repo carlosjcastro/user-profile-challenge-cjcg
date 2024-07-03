@@ -43,6 +43,7 @@
 
 .inputField:hover {
   border-color: #57cc99;
+  background-color: #07080e;
 }
 
 .inputField:focus {
@@ -72,7 +73,12 @@
 
 .error {
   color: #ef233c;
-  font-size: 12px;
+  font-size: 15px;
+}
+
+.errorIcon{
+  color: #ef233c;
+  font-size: 15px;
 }
 
 .successMessage {

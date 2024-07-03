@@ -1,7 +1,7 @@
-"use client";
 import React, { useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { motion } from "framer-motion";
+import { PiSealWarningBold } from "react-icons/pi";
 import styles from "./ContactForm.module.css";
 
 const ContactForm = () => {
@@ -59,7 +59,10 @@ const ContactForm = () => {
               )}
             />
             {errors.name && (
-              <span className={styles.error}>{errors.name.message}</span>
+              <span className={styles.error}>
+                <PiSealWarningBold className={styles.errorIcon} />{" "}
+                {errors.name.message}
+              </span>
             )}
 
             <Controller
@@ -86,7 +89,10 @@ const ContactForm = () => {
               )}
             />
             {errors.email && (
-              <span className={styles.error}>{errors.email.message}</span>
+              <span className={styles.error}>
+                <PiSealWarningBold className={styles.errorIcon} />{" "}
+                {errors.email.message}
+              </span>
             )}
 
             <Controller
@@ -106,7 +112,10 @@ const ContactForm = () => {
               )}
             />
             {errors.message && (
-              <span className={styles.error}>{errors.message.message}</span>
+              <span className={styles.error}>
+                <PiSealWarningBold className={styles.errorIcon} />{" "}
+                {errors.message.message}
+              </span>
             )}
 
             <motion.button
