@@ -3,7 +3,7 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
 
 ## Instalación
 1. Clonar el repositorio
-```git clone (https://github.com/carlosjcastro/user-profile-challenge-cjcg.git)```
+```git clone https://github.com/carlosjcastro/user-profile-challenge-cjcg.git```
 ```cd user-profile-challenge ```
 
 3. Instalar Node.js y npm en el sistema
