@@ -1,7 +1,7 @@
 # User Profile Challenge
 Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra información personal, intereses, habilidades y un formulario de contacto.
 
-##Instalación
+## Instalación
 1. Clonar el repositorio
 git clone [<URL del repositorio>](https://github.com/carlosjcastro/user-profile-challenge-cjcg.git)
 cd user-profile-challenge
@@ -14,7 +14,7 @@ cd user-profile-challenge
 5. Instalar dependencias de desarrollo
    npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @testing-library/jest-dom @testing-library/react babel-jest eslint eslint-config-next identity-obj-proxy jest
 
-##Ejecución
+## Ejecución
 
 1. Iniciar el servidor de desarrollo
    npm run dev
@@ -22,7 +22,7 @@ cd user-profile-challenge
 2. Abrir la aplicación en el navegador
    La aplicación estará disponible en http://localhost:3000.
 
-##Dependencias
+## Dependencias
 Framework y bibliotecas principales:
 
 Next.js
@@ -31,14 +31,14 @@ Material-UI
 Framer Motion
 Emotion
 
-###Otras dependencias importantes:
+### Otras dependencias importantes:
 
 react-hook-form
 react-icons
 boxicons
 
 
-##Scripts disponibles
+## Scripts disponibles
 npm run dev: Inicia la aplicación en modo de desarrollo.
 npm run build: Compila la aplicación para producción.
 npm start: Inicia la aplicación en modo de producción.
@@ -46,7 +46,7 @@ npm run lint: Ejecuta el linter para verificar el código.
 npm test: Ejecuta pruebas utilizando Jest.
 npm run test:watch: Ejecuta Jest en modo observador para pruebas continuas.
 
-##Estructura del proyecto
+## Estructura del proyecto
 /pages: Contiene las páginas de la aplicación.
 /components: Componentes reutilizables de React.
 /styles: Estilos globales y módulos CSS.
