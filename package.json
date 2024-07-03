@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prebuild": "npm install --legacy-peer-deps",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -27,7 +28,7 @@
     "@babel/preset-env": "^7.24.7",
     "@babel/preset-react": "^7.24.7",
     "@testing-library/jest-dom": "^6.4.6",
-    "@testing-library/react": "^14.3.1",
+    "@testing-library/react": "^16.0.0",
     "babel-jest": "^29.7.0",
     "eslint": "^8.7.0",
     "eslint-config-next": "14.2.4",
