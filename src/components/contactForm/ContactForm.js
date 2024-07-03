@@ -142,5 +142,4 @@ const ContactForm = () => {
     </motion.section>
   );
 };
-
 export default ContactForm;
