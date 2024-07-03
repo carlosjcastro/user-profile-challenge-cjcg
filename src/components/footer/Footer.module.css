@@ -1,0 +1,21 @@
+.footer {
+  background-color: #04060b;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  margin-top: 2rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  min-height: 10vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p a{
+  color: #57cc99;
+}
