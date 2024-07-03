@@ -47,7 +47,6 @@ Framework y bibliotecas principales:
 - npm start: Inicia la aplicación en modo de producción.
 - npm run lint: Ejecuta el linter para verificar el código.
 - npm test: Ejecuta pruebas utilizando Jest.
-- npm run test:watch: Ejecuta Jest en modo observador para pruebas continuas.
 ```
 ## Estructura del proyecto
 1. /pages: Contiene las páginas de la aplicación.
