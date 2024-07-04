@@ -78,8 +78,8 @@ const Skills = () => {
             <Image
               src={skill.logo}
               alt={`${skill.name} logo`}
-              width={60}
-              height={60}
+              width={40}
+              height={40}
             />
           </motion.div>
         ))}
