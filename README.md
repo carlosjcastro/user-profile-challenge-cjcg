@@ -1,7 +1,7 @@
-# User Profile Challenge
+# 🌟 User Profile Challenge
 Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra información personal, intereses, habilidades, idiomas y un formulario de contacto funcional.
 
-## Instalación
+## 🚀 Instalación
 1. Clonar el repositorio
 ```git clone https://github.com/carlosjcastro/user-profile-challenge-cjcg.git```
 ```cd user-profile-challenge ```
@@ -16,7 +16,7 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
    ```
    npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @testing-library/jest-dom @testing-library/react babel-jest eslint eslint-config-next identity-obj-proxy jest
 
-## Ejecución
+## 🏃 Ejecución
 
 1. Iniciar el servidor de desarrollo
    ```
@@ -25,7 +25,7 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
 3. Abrir la aplicación en el navegador
    La aplicación estará disponible en http://localhost:3000.
 
-## Dependencias
+## 📦 Dependencias
 Framework y bibliotecas principales:
 
 - Next.js
@@ -40,7 +40,7 @@ Framework y bibliotecas principales:
 - react-icons
 
 
-## Scripts disponibles
+## 📜 Scripts disponibles
 ```
 - npm run dev: Inicia la aplicación en modo de desarrollo.
 - npm run build: Compila la aplicación para producción.
@@ -48,10 +48,10 @@ Framework y bibliotecas principales:
 - npm run lint: Ejecuta el linter para verificar el código.
 - npm test: Ejecuta pruebas utilizando Jest.
 ```
-## Estructura del proyecto
+## 📂 Estructura del proyecto
 1. /pages: Contiene las páginas de la aplicación.
 2. /components: Componentes reutilizables de React.
 
-Ver deploy: [https://user-profile-challenge-cjcg.vercel.app/](https://user-profile-challenge.cjcastrogalante.com/)
+🌐 Ver deploy: [https://user-profile-challenge-cjcg.vercel.app/](https://user-profile-challenge.cjcastrogalante.com/)
 
 Creado con ♥ por Carlos José Castro Galante
