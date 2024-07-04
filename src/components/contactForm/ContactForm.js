@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useForm, Controller } from "react-hook-form";
 import { motion } from "framer-motion";
 import { PiSealWarningBold } from "react-icons/pi";
+import axios from "axios";
 import styles from "./ContactForm.module.css";
 
 const ContactForm = () => {
@@ -12,9 +13,17 @@ const ContactForm = () => {
   } = useForm();
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const onSubmit = (data) => {
-    console.log(data);
-    setIsSubmitted(true);
+  const onSubmit = async (data) => {
+    try {
+      const response = await axios.post("/sendEmail.php", data);
+      if (response.data.success) {
+        setIsSubmitted(true);
+      } else {
+        console.error(response.data.message);
+      }
+    } catch (error) {
+      console.error("Error al enviar el mensaje", error);
+    }
   };
 
   return (
@@ -40,7 +49,11 @@ const ContactForm = () => {
             ¡Mensaje enviado con éxito!
           </motion.div>
         ) : (
-          <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
+          <form
+            className={styles.form}
+            onSubmit={handleSubmit(onSubmit)}
+            method="POST"
+          >
             <Controller
               name="name"
               control={control}
@@ -142,4 +155,5 @@ const ContactForm = () => {
     </motion.section>
   );
 };
+
 export default ContactForm;

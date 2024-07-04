@@ -16,6 +16,10 @@ import vscode from "../../assets/logos/vscode.svg";
 import slack from "../../assets/logos/slack.svg";
 import trello from "../../assets/logos/trello.svg";
 
+const myLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
 const skillsList = [
   { name: "HTML 5", logo: html5 },
   { name: "CSS 3", logo: css3 },
@@ -76,6 +80,7 @@ const Skills = () => {
             onMouseLeave={handleMouseLeave}
           >
             <Image
+              loader={myLoader}
               src={skill.logo}
               alt={`${skill.name} logo`}
               width={40}

@@ -6,6 +6,10 @@ import { motion } from "framer-motion";
 import styles from "./Header.module.css";
 import carlos from "../../assets/img/carlos.jpg";
 
+const myLoader = ({ src, width, quality }) => {
+  return `${src}?w=${width}&q=${quality || 75}`;
+};
+
 export default function Header() {
 
   return (
@@ -22,6 +26,7 @@ export default function Header() {
         transition={{ duration: 0.6, delay: 0.2 }}
       >
         <Image
+          loader={myLoader}
           src={carlos}
           alt="Perfil"
           className={styles.profileImage}
