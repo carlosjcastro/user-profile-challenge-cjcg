@@ -1,5 +1,5 @@
 # User Profile Challenge
-Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra información personal, intereses, habilidades, idiomas y un formulario de contacto.
+Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra información personal, intereses, habilidades, idiomas y un formulario de contacto funcional.
 
 ## Instalación
 1. Clonar el repositorio
