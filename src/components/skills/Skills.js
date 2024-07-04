@@ -1,8 +1,8 @@
-'use client';
-import { useState } from 'react';
+"use client";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Popper from '@mui/material/Popper';
+import Popper from "@mui/material/Popper";
 import styles from "./Skills.module.css";
 import html5 from "../../assets/logos/html5.svg";
 import css3 from "../../assets/logos/css3.svg";
@@ -24,7 +24,7 @@ const skillsList = [
   { name: "HTML 5", logo: html5 },
   { name: "CSS 3", logo: css3 },
   { name: "JavaScript", logo: javascript },
-  { name: "React", logo: react },
+  { name: "React.js", logo: react },
   { name: "Next.js", logo: next },
   { name: "Azure", logo: azure },
   { name: "Git", logo: git },
@@ -36,7 +36,7 @@ const skillsList = [
 
 const Skills = () => {
   const [anchorEl, setAnchorEl] = useState(null);
-  const [currentSkill, setCurrentSkill] = useState('');
+  const [currentSkill, setCurrentSkill] = useState("");
 
   const handleMouseEnter = (event, skill) => {
     setAnchorEl(event.currentTarget);
@@ -45,7 +45,7 @@ const Skills = () => {
 
   const handleMouseLeave = () => {
     setAnchorEl(null);
-    setCurrentSkill('');
+    setCurrentSkill("");
   };
 
   return (
@@ -95,7 +95,7 @@ const Skills = () => {
           disablePortal={false}
           modifiers={[
             {
-              name: 'offset',
+              name: "offset",
               options: {
                 offset: [0, 8],
               },

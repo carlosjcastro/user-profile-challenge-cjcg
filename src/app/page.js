@@ -5,6 +5,7 @@ import About from "../components/about/About";
 import Interests from "../components/interests/Interests";
 import Skills from "../components/skills/Skills";
 import Languages from "../components/languages/Languages";
+import Experience from "../components/experience/Experience";
 import ContactForm from "../components/contactForm/ContactForm";
 import Footer from "../components/footer/Footer";
 import Loader from "../components/loader/Loader";
@@ -37,6 +38,9 @@ export default function Home() {
           <Skills className={styles.flexItem} />
           <Languages className={styles.flexItem} />
         </div>
+      </section>
+      <section className={styles.experienceSection}>
+        <Experience />
       </section>
       <section className={styles.contactSection}>
         <ContactForm />
