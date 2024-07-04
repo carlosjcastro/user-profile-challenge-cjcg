@@ -10,7 +10,7 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
    
 4. Instalar dependencias necesarias
    ```
-   npm install @emotion/react @emotion/styled @mui/material framer-motion next react react-dom react-hook-form react-icons
+   npm install @emotion/react @emotion/styled @mui/material framer-motion axios next react react-dom react-hook-form react-icons
 
 6. Instalar dependencias de desarrollo
    ```
