@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
       <div className={styles.center}>
         <p>
-          &copy; {new Date().getFullYear()}{" "}
+          &copy; {new Date().getFullYear()}{" "}. Diseñado y desarrollado por
           <a href="https://www.linkedin.com/in/carlosjcastrog/" target="_blank" rel="noopener noreferrer">
             {" "}
             Carlos José Castro Galante

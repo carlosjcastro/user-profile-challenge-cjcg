@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React, { useState, useEffect } from "react";
 import Header from "../components/header/Header";
 import About from "../components/about/About";
@@ -11,7 +11,6 @@ import Loader from "../components/loader/Loader";
 import styles from "./page.module.css";
 
 export default function Home() {
-
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
