@@ -52,6 +52,6 @@ Framework y bibliotecas principales:
 1. /pages: Contiene las páginas de la aplicación.
 2. /components: Componentes reutilizables de React.
 
-🌐 Ver deploy: [https://user-profile-challenge-cjcg.vercel.app/](https://user-profile-challenge.cjcastrogalante.com/)
+## 🌐 Ver deploy: [https://user-profile-challenge-cjcg.vercel.app/](https://user-profile-challenge.cjcastrogalante.com/)
 
 Creado con ♥ por Carlos José Castro Galante
