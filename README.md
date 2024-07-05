@@ -16,6 +16,7 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
    ```
    npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @testing-library/jest-dom @testing-library/react babel-jest eslint eslint-config-next identity-obj-proxy jest
 
+
 ## 🏃 Ejecución
 
 1. Iniciar el servidor de desarrollo
