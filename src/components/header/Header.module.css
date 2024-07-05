@@ -12,6 +12,7 @@
   margin-right: 20px;
   height: 150px;
   width: 150px;
+  cursor: pointer;
 }
 
 .title {
@@ -43,6 +44,59 @@
 
 .links a:last-child {
   margin-right: 0;
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(15px);
+}
+
+.modalContent {
+  position: relative;
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.modalImage {
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 70vh;
+  width: auto;
+  height: auto;
+}
+
+.modalContent p {
+  text-align: center;
+  color: #f1faee;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #57cc99;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.closeButton:hover {
+  color: #51b489;
+}
+
+.noScroll {
+  overflow: hidden;
 }
 
 /* Media Queries */

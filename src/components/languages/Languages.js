@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 import { LinearProgress } from "@mui/material";
@@ -47,11 +47,11 @@ const Languages = () => {
               variant="determinate"
               value={lang.progress}
               sx={{
-                width: '100%',
-                marginTop: '10px',
-                backgroundColor: '#1c1e29',
-                '& .MuiLinearProgress-bar': {
-                  backgroundColor: '#57cc99',
+                width: "100%",
+                marginTop: "10px",
+                backgroundColor: "#1c1e29",
+                "& .MuiLinearProgress-bar": {
+                  backgroundColor: "#57cc99",
                 },
               }}
             />

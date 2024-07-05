@@ -154,7 +154,7 @@
 
   .timelineItem.left::before,
   .timelineItem.right::before {
-    left: -30px;
+    left: 8px;
     right: auto;
     transform: none;
   }

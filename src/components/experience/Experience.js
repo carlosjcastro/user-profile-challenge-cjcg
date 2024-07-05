@@ -15,7 +15,7 @@ const experiences = [
       "Apoyé el desarrollo de videojuegos para personas con dificultades cognitivas y motoras, colaborando con el profesor principal.",
   },
   {
-    title: "Portafolio Remoto, Autodidacta",
+    title: "Portafolio, Autodidacta",
     duration: "Noviembre 2022 - Presente",
     description:
       "Utilicé HTML5 y CSS3 para crear páginas web responsivas y visualmente atractivas, mejorando la experiencia del usuario.",

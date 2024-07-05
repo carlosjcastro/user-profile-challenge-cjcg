@@ -29,14 +29,14 @@
   color: #57cc99;
 }
 
-
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .left, .center {
+  .left,
+  .center {
     text-align: left;
     padding-left: 0;
   }

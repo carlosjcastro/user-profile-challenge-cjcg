@@ -1,5 +1,5 @@
 .title {
-  font-size: 50px;
+  font-size: 45px;
   margin: 0;
   color: #ffffff;
 }
@@ -15,7 +15,7 @@
   border-radius: 8px;
 }
 
-.titleContainer p{
+.titleContainer p {
   color: #f1faee;
 }
 
@@ -76,7 +76,7 @@
   font-size: 15px;
 }
 
-.errorIcon{
+.errorIcon {
   color: #ef233c;
   font-size: 15px;
 }
@@ -87,6 +87,7 @@
   text-align: center;
 }
 
+/* Media Queries */
 @media (max-width: 768px) {
   .formContainer,
   .titleContainer {

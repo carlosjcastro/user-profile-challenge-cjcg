@@ -19,7 +19,22 @@ export default function Home() {
       setLoading(false);
     }, 2000);
 
-    return () => clearTimeout(timer);
+    const handleDoubleClick = (event) => {
+      event.preventDefault();
+    };
+
+    const handleContextMenu = (event) => {
+      event.preventDefault();
+    };
+
+    document.addEventListener("dblclick", handleDoubleClick);
+    document.addEventListener("contextmenu", handleContextMenu);
+
+    return () => {
+      clearTimeout(timer);
+      document.removeEventListener("dblclick", handleDoubleClick);
+      document.removeEventListener("contextmenu", handleContextMenu);
+    };
   }, []);
 
   if (loading) {
