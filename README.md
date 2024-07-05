@@ -1,5 +1,5 @@
 # 🌟 User Profile Challenge
-Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra información personal, intereses, habilidades, idiomas y un formulario de contacto funcional.
+Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra información personal, intereses, habilidades, idiomas y un formulario de contacto funcional. Además, cuenta con funcionalidades como la visualización ampliada de imagen de perfil al hacer clic en la misma, iconos de redes sociales, secciones de "About", un botón para ver CV, "Interests", "Skills" con nombres específicos, "Languages" con barras de progreso, "Experience" con una línea de tiempo desde la más reciente hasta la más antigua, un formulario de contacto funcional con validación, mensajes de error y éxito al enviar el mensaje, y un footer con logo.
 
 ## 🚀 Instalación
 1. Clonar el repositorio
@@ -45,8 +45,15 @@ Framework y bibliotecas principales:
 - npm test: Ejecuta pruebas utilizando Jest.
 ```
 ## 📂 Estructura del proyecto
-1. /pages: Contiene las páginas de la aplicación.
-2. /components: Componentes reutilizables de React.
+1. /components: Componentes reutilizables de React.
+   - /about
+   - /contactForm
+   - /experience
+   - /footer
+   - /header
+   - /interests
+   - /loader
+   - /skills
 
 ## 🌐 Ver deploy: ([https://user-profile-challenge.cjcastrogalante.com/](https://user-profile-challenge.cjcastrogalante.com/))
 
