@@ -11,12 +11,9 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
 4. Instalar dependencias necesarias
    ```
    npm install @emotion/react @emotion/styled @mui/material framer-motion axios next react react-dom react-hook-form react-icons
-
 6. Instalar dependencias de desarrollo
    ```
    npm install --save-dev @babel/core @babel/preset-env @babel/preset-react @testing-library/jest-dom @testing-library/react babel-jest eslint eslint-config-next identity-obj-proxy jest
-
-
 ## 🏃 Ejecución
 
 1. Iniciar el servidor de desarrollo
