@@ -19,7 +19,6 @@ Este proyecto es un perfil de usuario desarrollado con Next.js, que muestra info
 1. Iniciar el servidor de desarrollo
    ```
    npm run dev
-   
 3. Abrir la aplicación en el navegador
    La aplicación estará disponible en http://localhost:3000.
 
@@ -36,7 +35,6 @@ Framework y bibliotecas principales:
 
 - react-hook-form
 - react-icons
-
 
 ## 📜 Scripts disponibles
 ```
